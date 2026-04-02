@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+._*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 업무보고 내용물은 개인별이므로 제외
+업무보고/*.md
+
+
