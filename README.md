@@ -113,3 +113,12 @@ AIAgent_Report/
 
 MIT License
 
+---
+
+## 📌 버전 변경 이력
+
+| 버전 | 날짜 | 주요 변경 내용 |
+|---|---|---|
+| **v1.0** | 2026-03-31 | 최초 릴리즈 — GitHub Copilot (JetBrains) · Antigravity · Cursor 3-에이전트 통합 파서, SKILL.md 초안, 보고서 양식 |
+| **v2.0** | 2026-04-02 | GitHub Copilot VSCode 에이전트 추가 — `saveConversationLog` 설정 자동 활성화, chatSessions JSONL 파서, install.sh [5/5] 단계 추가 |
+| **v3.0** | 2026-04-03 | GPT Codex 에이전트 로그 구조 상세 분석 반영 — 경로 `YYYY/MM/DD/rollout-*.jsonl`, 이벤트 타입 `session_meta` · `user_message` · `event_msg` · `function_call` · `token_count` 기반 파서로 전면 재작성 |
